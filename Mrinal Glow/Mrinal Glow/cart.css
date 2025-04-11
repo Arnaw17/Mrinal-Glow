@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+#container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+#cart {
+  padding: 20px;
+}
+
+#cart h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead th {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.table tbody td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.iprice {
+  width: 50px;
+  text-align: center;
+}
+
+.itotal {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#total {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#gtotal {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  
+  text-align: center;
+}
+
+.form-control {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+.form-check {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.form-check-input {
+  margin-right: 10px;
+
+}
+
+.btn-primary {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left:45%;
+  margin-bottom:40px;
+  
+}
+
+.btn-primary:hover {
+  background-color: #23527c;
+}
+
+@media (max-width: 768px) {
+  #container {
+    padding: 10px;
+  }
+  .form-group,
+  .form-control,
+  .form-check {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
